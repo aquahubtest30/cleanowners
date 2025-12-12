@@ -1,6 +1,6 @@
 #checkov:skip=CKV_DOCKER_2
 #checkov:skip=CKV_DOCKER_3
-FROM python:3.13.7-slim@sha256:58c30f5bfaa718b5803a53393190b9c68bd517c44c6c94c1b6c8c172bcfad040
+FROM python:3.14.0-slim@sha256:0aecac02dc3d4c5dbb024b753af084cafe41f5416e02193f1ce345d671ec966e
 LABEL org.opencontainers.image.source https://github.com/github/cleanowners
 
 WORKDIR /action/workspace
